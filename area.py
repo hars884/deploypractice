@@ -1,5 +1,3 @@
-print("select a shape to find area:\n1. circle\n2. rectangle\n3. square\n")
-shape=input()
 def aos(shape):
     if shape=="circle":
         r=float(input("enter the radius of circle:"))
@@ -16,4 +14,3 @@ def aos(shape):
         print("area of square is:",area)
     else:
         print("invalid shape")
-aos(shape)
